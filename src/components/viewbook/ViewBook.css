@@ -1,0 +1,73 @@
+/* General container styling */
+.book-details-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+    min-height: 100vh; /* Full screen height */
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Back button styling */
+  .back-button {
+    align-self: flex-start;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .back-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Card styling */
+  .card {
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Card content styling */
+  .card h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .card p {
+    font-size: 16px;
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  .card p strong {
+    color: #333;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .card {
+      padding: 15px;
+    }
+  
+    .card h1 {
+      font-size: 20px;
+    }
+  
+    .card p {
+      font-size: 14px;
+    }
+  }
+  

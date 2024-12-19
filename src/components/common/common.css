@@ -1,0 +1,146 @@
+.hero-section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('https://res.cloudinary.com/dgkcumi4q/image/upload/v1734232291/pexels-george-milton-7034502_pdmqew.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+  }
+  .hero-content {
+    max-width: 600px;
+    background-color: rgba(0, 0, 0, 0.6); /* Add a slight overlay for better text readability */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  .hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+  }
+  .hero-content button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    color: white;
+    background-color: #28a745; /* A green color for a positive feel */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .hero-content button:hover {
+    background-color: #218838; /* Slightly darker green on hover */
+  }
+
+
+
+  /* General styling for 100vh layout */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Arial', sans-serif;
+}
+
+/* About Page Styling */
+.about-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #f8f9fa, #e9ecef);
+}
+
+.about-content {
+  max-width: 800px;
+  text-align: center;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.about-content h1 {
+  font-size: 28px;
+  color: #343a40;
+  margin-bottom: 20px;
+}
+
+.about-content p {
+  font-size: 16px;
+  color: #495057;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+/* Contact Page Styling */
+.contact-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #e3f2fd, #90caf9);
+}
+
+.contact-container {
+  background: white;
+  padding: 30px;
+  max-width: 600px;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-container h1 {
+  font-size: 28px;
+  color: #0d47a1;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact-container p {
+  font-size: 16px;
+  color: #495057;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-input, .form-textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.form-input:focus, .form-textarea:focus {
+  border-color: #0d47a1;
+  outline: none;
+}
+
+.form-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #0d47a1;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-button:hover {
+  background-color: #1565c0;
+}
